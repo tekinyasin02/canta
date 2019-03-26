@@ -307,6 +307,20 @@ void pazartesi()
       lcd.setCursor(4,3);
       lcd.print("Iyi Dersler");
       }
+            else
+      {
+        analogWrite(buzzer,255);
+        delay(400);
+        digitalWrite(buzzer,LOW);
+        delay(200);
+        analogWrite(buzzer,255);
+        delay(400);  
+        digitalWrite(buzzer,LOW);
+        delay(200);
+        analogWrite(buzzer,255);
+        delay(400);  
+        digitalWrite(buzzer,LOW);
+        }
      Serial.println("-------------");
   
   }
@@ -405,6 +419,20 @@ void pazartesi()
       lcd.setCursor(4,3);
       lcd.print("Iyi Dersler");
       }
+            else
+      {
+        analogWrite(buzzer,255);
+        delay(400);
+        digitalWrite(buzzer,LOW);
+        delay(200);
+        analogWrite(buzzer,255);
+        delay(400);  
+        digitalWrite(buzzer,LOW);
+        delay(200);
+        analogWrite(buzzer,255);
+        delay(400);  
+        digitalWrite(buzzer,LOW);
+        }
    Serial.println("-------------");
  }
   void persembe()
@@ -484,6 +512,20 @@ void pazartesi()
       lcd.setCursor(4,3);
       lcd.print("Iyi Dersler");
       }
+            else
+      {
+        analogWrite(buzzer,255);
+        delay(400);
+        digitalWrite(buzzer,LOW);
+        delay(200);
+        analogWrite(buzzer,255);
+        delay(400);  
+        digitalWrite(buzzer,LOW);
+        delay(200);
+        analogWrite(buzzer,255);
+        delay(400);  
+        digitalWrite(buzzer,LOW);
+        }
  Serial.println("-------------");
  
  }
@@ -565,6 +607,20 @@ if(turkce_durum==1)
       lcd.setCursor(4,3);
       lcd.print("Iyi Dersler");
       }
+            else
+      {
+        analogWrite(buzzer,255);
+        delay(400);
+        digitalWrite(buzzer,LOW);
+        delay(200);
+        analogWrite(buzzer,255);
+        delay(400);  
+        digitalWrite(buzzer,LOW);
+        delay(200);
+        analogWrite(buzzer,255);
+        delay(400);  
+        digitalWrite(buzzer,LOW);
+        }
      Serial.println("-------------");
   }
   
